@@ -23,3 +23,4 @@ jobs:
           access-token: ${{ secrets.GITHUB_TOKEN  }}
           working-dir: "web"
           deploy-branch: gh-pages
+          gatsby-args: --prefix-paths
