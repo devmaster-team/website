@@ -19,8 +19,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-        submodules: true
-        fetch-depth: 0 
+          submodules: true
+          fetch-depth: 0 
       - uses: enriikke/gatsby-gh-pages-action@v2
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
