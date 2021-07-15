@@ -24,3 +24,4 @@ jobs:
           working-dir: "web"
           deploy-branch: gh-pages
           gatsby-args: --prefix-paths
+
