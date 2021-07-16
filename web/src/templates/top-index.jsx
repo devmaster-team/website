@@ -38,6 +38,10 @@ export const query = graphql`
             href
             imageFileName
           }
+          technologies {
+            href
+            imageFileName
+          }
           content
           copyright
           header

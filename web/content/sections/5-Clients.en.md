@@ -1,4 +1,5 @@
 ---
+header: "Our clients"
 clients: [
   {
     imageFileName: "logos/HSBC.jpg",
