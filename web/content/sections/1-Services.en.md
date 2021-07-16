@@ -1,22 +1,21 @@
 ---
 anchor: "Services"
 header: "Services"
-subheader: "Lorem ipsum dolor sit amet consectetur."
 services: [
   {
     iconName: "LaptopIcon",
     header: "Web applications",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    content: "We create services and web apps which facilitate your daily work."
   },
   {
     iconName: "MobileIcon",
     header: "Mobile applications",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    content: "Mobile applications designed for all devices, whether they run on iOS or Android."
   },
   {
     iconName: "DesktopIcon",
-    header: "Webalizing desktop applications",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    header: "Webalizing applications",
+    content: "We rewrite desktop applications to web versions."
   }
 ]
 ---
