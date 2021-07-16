@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Gatsyby Startbootstrap Agency",
+  title: "Dev Masters",
   keywords: [
     "gatsby",
     "gatsbyjs",
@@ -10,7 +10,7 @@ module.exports = {
     "bootstrap",
     "startbootstrap-agency",
   ],
-  description: "gatsby version of startbootstrap-agency with i18n support.",
+  description: "gatsby version of dev masters team with i18n support.",
   author: "thundermiracle",
   trackingId: "UA-119418003-5",
   defaultLang: "en",
