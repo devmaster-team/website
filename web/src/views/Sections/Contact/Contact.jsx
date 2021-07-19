@@ -21,6 +21,26 @@ const Contact = ({ className, frontmatter }) => {
           <p className="text-muted mb-5">{subheader}</p>
         </Col>
       </Row>
+      <div className="contact-container">
+        <form id="contact">
+          <label htmlFor="name">
+            <input placeholder="Your name" type="text" name="name" id="name" />
+          </label>
+          <label htmlFor="email">
+            <input placeholder="Your Email Address" type="email" name="email" id="email" />
+          </label>
+          <label htmlFor="phone">
+            <input placeholder="Your Phone Number (optional)" type="text" name="phone" id="phone" />
+          </label>
+          <label htmlFor="subject">
+            <input placeholder="Subject" type="text" name="subject" id="subject" />
+          </label>
+          <label htmlFor="message">
+            <textarea placeholder="Type your message here...." name="message" id="message" rows="5" />
+          </label>
+          <button type="submit">Send</button>
+        </form>
+      </div>
       <Row>
         <Col lg={12} className="mr-auto text-center">
           <Icon iconName="EnvelopIcon" size="3x" className="text-muted mb-3" />
@@ -29,7 +49,9 @@ const Contact = ({ className, frontmatter }) => {
           </a>
         </Col>
       </Row>
-    </PageSection>
+
+
+    </PageSection >
   );
 };
 
