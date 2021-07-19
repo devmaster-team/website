@@ -28,8 +28,12 @@ jobs:
       - uses: ibiqlik/action-yamllint@v3
         with:
           config_file: .yamllint.yml
-          
-      - uses: actions/setup-node@v2
+      
+      - name: Use Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      - name: npm install, build, and test
         run: |
           npm install --force
           npm audit fix
