@@ -21,6 +21,26 @@ const Contact = ({ className, frontmatter }) => {
           <p className="text-muted mb-5">{subheader}</p>
         </Col>
       </Row>
+      <div className="contact-container">
+        <form id="contact" method="post" action="https://formspree.io/f/mayadlyd">
+          <label htmlFor="name">
+            <input placeholder="Your name" type="text" name="name" id="name" required/>
+          </label>
+          <label htmlFor="_replyto">
+            <input placeholder="Your Email Address" type="email" name="_replyto" id="email" required/>
+          </label>
+          <label htmlFor="phone">
+            <input placeholder="Your Phone Number (optional)" type="text" name="phone" id="phone" />
+          </label>
+          <label htmlFor="subject">
+            <input placeholder="Subject" type="text" name="subject" id="subject" required/>
+          </label>
+          <label htmlFor="message">
+            <textarea placeholder="Type your message here...." name="message" id="message" rows="5" required/>
+          </label>
+          <button type="submit">Send</button>
+        </form>
+      </div>
       <Row>
         <Col lg={12} className="mr-auto text-center">
           <Icon iconName="EnvelopIcon" size="3x" className="text-muted mb-3" />
@@ -29,7 +49,9 @@ const Contact = ({ className, frontmatter }) => {
           </a>
         </Col>
       </Row>
-    </PageSection>
+
+
+    </PageSection >
   );
 };
 
