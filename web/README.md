@@ -11,5 +11,6 @@ This project is using `yarn` as the package manager. You have to set yarn as Gat
 ```sh
 npm install -g gatsby-cli
 
-gatsby new my-blog-folder https://github.com/thundermiracle/gatsby-startbootstrap-agency
+cd my-project
+gatsby develop
 ```
