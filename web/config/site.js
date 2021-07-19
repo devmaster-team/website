@@ -1,16 +1,13 @@
 module.exports = {
   title: "Dev Masters",
   keywords: [
-    "gatsby",
-    "gatsbyjs",
     "landing page",
     "landing",
     "i18n",
     "eslint",
-    "bootstrap",
-    "startbootstrap-agency",
+    "dev masters"
   ],
-  description: "gatsby version of dev masters team with i18n support.",
+  description: "Dev Masters team WebPage",
   author: "thundermiracle",
   trackingId: "UA-119418003-5",
   defaultLang: "en",
