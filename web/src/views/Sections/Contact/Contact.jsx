@@ -22,12 +22,12 @@ const Contact = ({ className, frontmatter }) => {
         </Col>
       </Row>
       <div className="contact-container">
-        <form id="contact">
+        <form id="contact" method="post" action="https://formspree.io/f/mayadlyd">
           <label htmlFor="name">
             <input placeholder="Your name" type="text" name="name" id="name" />
           </label>
-          <label htmlFor="email">
-            <input placeholder="Your Email Address" type="email" name="email" id="email" />
+          <label htmlFor="_replyto">
+            <input placeholder="Your Email Address" type="email" name="_replyto" id="email" />
           </label>
           <label htmlFor="phone">
             <input placeholder="Your Phone Number (optional)" type="text" name="phone" id="phone" />
