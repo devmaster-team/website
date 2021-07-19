@@ -24,19 +24,19 @@ const Contact = ({ className, frontmatter }) => {
       <div className="contact-container">
         <form id="contact" method="post" action="https://formspree.io/f/mayadlyd">
           <label htmlFor="name">
-            <input placeholder="Your name" type="text" name="name" id="name" />
+            <input placeholder="Your name" type="text" name="name" id="name" required/>
           </label>
           <label htmlFor="_replyto">
-            <input placeholder="Your Email Address" type="email" name="_replyto" id="email" />
+            <input placeholder="Your Email Address" type="email" name="_replyto" id="email" required/>
           </label>
           <label htmlFor="phone">
             <input placeholder="Your Phone Number (optional)" type="text" name="phone" id="phone" />
           </label>
           <label htmlFor="subject">
-            <input placeholder="Subject" type="text" name="subject" id="subject" />
+            <input placeholder="Subject" type="text" name="subject" id="subject" required/>
           </label>
           <label htmlFor="message">
-            <textarea placeholder="Type your message here...." name="message" id="message" rows="5" />
+            <textarea placeholder="Type your message here...." name="message" id="message" rows="5" required/>
           </label>
           <button type="submit">Send</button>
         </form>
