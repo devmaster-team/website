@@ -44,6 +44,7 @@ jobs:
         working-directory: web
       - uses: enriikke/gatsby-gh-pages-action@v2
         with:
+          access-token: ${{ secrets.ACCESS_TOKEN }}
           working-dir: "web"
           deploy-branch: gh-pages
           skip-publish: true
