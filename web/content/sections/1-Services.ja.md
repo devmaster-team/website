@@ -1,21 +1,21 @@
 ---
-anchor: "サービス"
-header: "サービス"
+anchor: "Services"
+header: "Services"
 services: [
   {
     iconName: "LaptopIcon",
-    header: "ECサイト",
-    content: "あなたは偶然断然その持通りについて事のためにまかり出ですた。もう元来を説明心はとうとうこのお話しないななどでいて行くたでは滅亡しましでて、再びにはなったうないです。"
+    header: "Web applications",
+    content: "We create backend application and web-frontend which facilitate your daily work."
   },
   {
-    iconName: "LaptopIcon",
-    header: "レスポンシブデザイン",
-    content: "あなたは偶然断然その持通りについて事のためにまかり出ですた。もう元来を説明心はとうとうこのお話しないななどでいて行くたでは滅亡しましでて、再びにはなったうないです。"
+    iconName: "MobileIcon",
+    header: "Mobile applications",
+    content: "Mobile applications designed for all devices, whether they run on iOS or Android."
   },
   {
     iconName: "DesktopIcon",
-    header: "ウェブセキュリティ",
-    content: "あなたは偶然断然その持通りについて事のためにまかり出ですた。もう元来を説明心はとうとうこのお話しないななどでいて行くたでは滅亡しましでて、再びにはなったうないです。"
+    header: "Webalizing applications",
+    content: "We rewrite desktop applications to web versions."
   }
 ]
 ---

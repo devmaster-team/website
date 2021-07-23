@@ -11,11 +11,7 @@ timeline: [
     imageFileName: "about/2.jpg",
     header: "2011-2019",
     subheader: "Gaining experience, search for contacts",
-    content: "Main organization division was born.
-	One company, few freelancers cooperating with each other, one purpose. 
-	To get experience on the market. To understand needs of the market.
-	We tried to develop our own products and we failed."
-	We tried to stay in business and we success. 
+    content: "Main organization division was born. One company, few freelancers cooperating with each other, one purpose. To get experience on the market. To understand needs of the market. We tried to develop our own products and we failed. We tried to stay in business and we success." 
   },
   {
     imageFileName: "about/3.jpg",

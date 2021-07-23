@@ -5,7 +5,7 @@ services: [
   {
     iconName: "LaptopIcon",
     header: "Web applications",
-    content: "We create services and web apps which facilitate your daily work."
+    content: "We create backend application and web-frontend which facilitate your daily work."
   },
   {
     iconName: "MobileIcon",
