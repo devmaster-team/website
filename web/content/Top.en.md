@@ -1,5 +1,5 @@
 ---
-header: "Let's Dev Masters take care of your business"
+header: "Let Dev Masters take care of your business"
 subheader: "Welcome To DevMasters team!"
 imageFileName: "header-bg.jpg"
 jumpToAnchor: "Services"
