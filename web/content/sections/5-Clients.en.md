@@ -10,7 +10,7 @@ clients: [
     href: "https://www.aptiv.com/"
   },
   {
-    imageFileName: "logos/media-press.jpg",
+    imageFileName: "logos/media-press.svg",
     href: "https://www.media-press.tv/"
   },
   {
