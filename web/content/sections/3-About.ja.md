@@ -15,12 +15,18 @@ timeline: [
   },
   {
     imageFileName: "about/3.jpg",
+    header: "2013",
+    subheader: "UK department is founded",
+    content: "BnB systems LTD is now a part of our organization"
+  },
+  {
+    imageFileName: "about/4.jpg",
     header: "2019",
     subheader: "Hire first employees under an employment contract",
     content: "At that point everything start to work... The most important is not to give up!"
   },
   {
-    imageFileName: "about/4.jpg",
+    imageFileName: "about/5.jpg",
     header: "2021",
     subheader: "Phase Two Expansion",
     content: "Based on experience we gained, network of contacts we build, we are starting to join our forces"
