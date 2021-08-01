@@ -28,7 +28,7 @@ timeline: [
   {
     imageFileName: "about/4.jpg",
     header: "2019",
-    subheader: "Hire first employees under an employment contract",
+    subheader: "Hire new employees under an employment contract",
     content: "At that point everything start to work... The most important is not to give up!"
   },
   {
