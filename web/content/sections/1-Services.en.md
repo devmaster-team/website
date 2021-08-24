@@ -5,7 +5,7 @@ services: [
   {
     iconName: "DesktopIcon",
     header: "Webalizing applications",
-    content: "We will rewrite your old desktop applications (PC Windows) to a new, nice looking web version - available on all devices with Internet access. We are refactoring experts"
+    content: "We will rewrite your old desktop applications (PC Windows) to a new, nice looking web version - available on all devices with Internet access. We are refactoring experts."
   },
   {
     iconName: "LaptopIcon",
