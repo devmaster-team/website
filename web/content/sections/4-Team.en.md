@@ -41,16 +41,6 @@ teamMember: [
       facebook: "#",
       medium: "#"
     }
-  },
-  {
-    imageFileName: "team/2.jpg",
-    header: "Marek",
-    subheader: "Lead Developer",
-    social: {
-      twitter: "#",
-      facebook: "#",
-      medium: "#"
-    }
-  },
+  }
 ]
 ---

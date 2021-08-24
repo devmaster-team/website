@@ -1,5 +1,5 @@
 ---
-header: "Our clients"
+header: "Partners and clients"
 clients: [
   {
     imageFileName: "logos/HSBC.jpg",
@@ -10,7 +10,7 @@ clients: [
     href: "https://www.aptiv.com/"
   },
   {
-    imageFileName: "logos/media-press.svg",
+    imageFileName: "logos/media-press.jpg",
     href: "https://www.media-press.tv/"
   },
   {

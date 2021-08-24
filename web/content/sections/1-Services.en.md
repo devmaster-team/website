@@ -10,12 +10,12 @@ services: [
   {
     iconName: "LaptopIcon",
     header: "Web applications",
-    content: "We design and create a new, web application."
+    content: "We design and create a new, web application..."
   },
   {
     iconName: "MobileIcon",
     header: "Mobile applications",
-    content: "Mobile applications designed for all devices, whether they run on iOS or Android."
+    content: "... along with mobile applications designed for all devices, whether they run on iOS or Android."
   }
 ]
 ---
