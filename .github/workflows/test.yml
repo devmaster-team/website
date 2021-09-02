@@ -38,8 +38,6 @@ jobs:
           npm install --force
           npm audit fix
           npm run build --if-present
-          npm run test
-          npm run testbuild
         working-directory: web
       - uses: enriikke/gatsby-gh-pages-action@v2
         with:
