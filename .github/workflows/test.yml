@@ -38,7 +38,6 @@ jobs:
           npm install --force
           npm audit fix
           npm install -g gatsby-cli
-          cd web
           gatsby build
         working-directory: web
       - uses: enriikke/gatsby-gh-pages-action@v2
