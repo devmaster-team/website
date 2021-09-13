@@ -23,12 +23,12 @@ class Portfolio extends React.Component {
                                 <div className="col-12 text-center wow move-up  animated" >
                                     <ul className="nav justify-content-center ht-tab-menu" role="tablist">
                                         <li className="tab__item nav-item active">
-                                            <Link className="nav-link active" id="nav-tab1" data-toggle="tab"
-                                                href="#history-tab" role="tab" aria-selected="true">Abs Bildelar</Link>
+                                            <a className="nav-link active" id="nav-tab1" data-toggle="tab"
+                                                href="#history-tab" role="tab" aria-selected="true">Abs Bildelar</a>
                                         </li>
                                         <li className="tab__item nav-item">
-                                            <Link className="nav-link" id="nav-tab2" data-toggle="tab" href="#mission-tab"
-                                                role="tab" aria-selected="false">Webalizing WinForms application</Link>
+                                            <a className="nav-link" id="nav-tab2" data-toggle="tab" href="#mission-tab"
+                                                role="tab" aria-selected="false">Webalizing WinForms application</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -62,18 +62,15 @@ class Portfolio extends React.Component {
                                             </div>
                                             <div className="col-lg-5 offset-lg-1 ">
                                                 <div className="tab-content-inner  mt-30">
-                                                    <div className="text mb-30">Scope of work</div>
+                                                    <div className="text mb-30">...</div>
                                                     <ul className="check-list section-space--mb_40">
-                                                        <li className="list-item">IT Consultancy </li>
-                                                        <li className="list-item">IT Design </li>
-                                                        <li className="list-item">Desktop Computing </li>
-                                                        <li className="list-item">Software Engineering </li>
+                                                        <li className="list-item">..</li>
+                                                        <li className="list-item">..</li>
+                                                        <li className="list-item">..</li>
+                                                        <li className="list-item">..</li>
                                                     </ul>
-                                                    <div className="text mb-30">Technologies used in this project</div>                                                    <div className="tab-button mt-20">
-                                                        <Link className="btn-text" href="#">
-                                                            <span className="button-text">Let's get started <i
-                                                                    className="far fa-long-arrow-right"></i></span>
-                                                        </Link>
+                                                    <div className="text mb-30">...</div>
+                                                    <div className="tab-button mt-20">
                                                     </div>
                                                 </div>
                                             </div>
@@ -108,23 +105,15 @@ class Portfolio extends React.Component {
                                             </div>
                                             <div className="col-lg-5 offset-lg-1 ">
                                                 <div className="tab-content-inner  mt-30">
-                                                    <div className="text mb-30">Scope of work</div>
+                                                    <div className="text mb-30">...</div>
                                                     <ul className="check-list section-space--mb_40">
-                                                        <li className="list-item">Aenean volutpat felis at libero mattis
-                                                            condiment </li>
-                                                        <li className="list-item">Aenean volutpat felis at libero mattis
-                                                            condiment </li>
-                                                        <li className="list-item">Aenean volutpat felis at libero mattis
-                                                            condiment </li>
-                                                        <li className="list-item">Aenean volutpat felis at libero mattis
-                                                            condiment </li>
+                                                        <li className="list-item">..</li>
+                                                        <li className="list-item">..</li>
+                                                        <li className="list-item">..</li>
+                                                        <li className="list-item">..</li>
                                                     </ul>
-                                                    <div className="text mb-30">Technologies used in this project</div>
-                                                    <div className="tab-button">
-                                                        <Link to="#" className="btn-text" >
-                                                            <span className="button-text">Let's get started <i
-                                                                    className="far fa-long-arrow-right"></i></span>
-                                                        </Link>
+                                                    <div className="text mb-30">...</div>
+                                                    <div className="tab-button mt-20">
                                                     </div>
                                                 </div>
                                             </div>
@@ -159,20 +148,15 @@ class Portfolio extends React.Component {
                                             </div>
                                             <div className="col-lg-5 offset-lg-1 ">
                                                 <div className="tab-content-inner  mt-30">
-                                                    <div className="text mb-30">We’re available for 8 hours a day!
-                                                        <br/>Contact to require a detailed analysis and assessment of
-                                                        your plan.</div>
+                                                    <div className="text mb-30">...</div>
                                                     <ul className="check-list section-space--mb_40">
-                                                        <li className="list-item">IT Consultancy </li>
-                                                        <li className="list-item">IT Design </li>
-                                                        <li className="list-item">Desktop Computing </li>
-                                                        <li className="list-item">Software Engineering </li>
+                                                        <li className="list-item">..</li>
+                                                        <li className="list-item">..</li>
+                                                        <li className="list-item">..</li>
+                                                        <li className="list-item">..</li>
                                                     </ul>
-                                                    <div className="tab-button">
-                                                        <Link className="btn-text" href="#">
-                                                            <span className="button-text">Let's get started <i
-                                                                    className="far fa-long-arrow-right"></i></span>
-                                                        </Link>
+                                                    <div className="text mb-30">...</div>
+                                                    <div className="tab-button mt-20">
                                                     </div>
                                                 </div>
                                             </div>

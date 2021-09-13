@@ -1,10 +1,31 @@
-import React from "react";
-import { Link } from "gatsby";
+import React from "react"
+import { Link } from "gatsby"
+// import { useStaticQuery, graphql } from "gatsby"
 
-class Team extends React.Component {
-  render () {
-    return (
-        <>
+const Team = () => {
+//   const data = useStaticQuery(graphql`
+//   {
+//     allMdx(filter: {slug: {eq: "sections/4-Team.en"}}) {
+//       nodes {
+//         frontmatter {
+//           teamMember {
+//             header
+//             imageFileName
+//             subheader
+//             social {
+//               twitter
+//               facebook
+//               linkedin
+//               medium
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// `)
+  return (
+      <>
           <div id="team" className="section-space--ptb_100 infotechno-section-bg-01">
                 <div className="feature-large-images-wrapper section-space--pt_100">
                     <div className="container">
@@ -138,8 +159,8 @@ class Team extends React.Component {
                 </div>
             </div>
         </>
-    );
-  }
-};
+  )
+  
+}
 
-export default Team;
+export default Team

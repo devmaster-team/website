@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 
 class Services extends React.Component {
   render () {
@@ -112,7 +113,7 @@ class Services extends React.Component {
                                                             <div className="content-body">
                                                                 <h6 className="heading">UK department is founded</h6>
                                                                 <div className="text">
-                                                                    BnB systems LTD is now a part of our organization
+                                                                    <Link to="https://bnbsystems.org/">BnB systems</Link> LTD is now a part of our organization
                                                                 </div>
                                                             </div>
                                                         </div>

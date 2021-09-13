@@ -5,7 +5,7 @@ class Footer extends React.Component {
   render () {
     return (
         <>
-          <div className="footer-area-wrapper bg-gray">
+        <div className="footer-area-wrapper bg-gray">
             <div className="footer-area section-space--ptb_80">
                 <div className="container">
                     <div className="row footer-widget-wrapper">
@@ -17,33 +17,6 @@ class Footer extends React.Component {
                                 <li><Link to="mailto:contact@devmaster.team" className="hover-style-link">contact@devmaster.team</Link></li>
                                 {/* <li><Link to="tel:123344556" className="hover-style-link text-black font-weight--bold">(+48) 111 222 333</Link></li> */}
                                 <li><Link to="https://devmaster.team/" className="hover-style-link text-color-primary">www.devmaster.team</Link></li>
-                            </ul>
-                        </div>
-                        <div className="col-lg-2 col-md-4 col-sm-6 footer-widget">
-                            <h6 className="footer-widget__title mb-20">Column1</h6>
-                            <ul className="footer-widget__list">
-                                <li><Link to="#" className="hover-style-link">Link</Link></li>
-                                <li><Link to="#" className="hover-style-link">Link</Link></li>
-                                <li><Link to="#" className="hover-style-link">Link</Link></li>
-                                <li><Link to="#" className="hover-style-link">Link</Link></li>
-                            </ul>
-                        </div>
-                        <div className="col-lg-2 col-md-4 col-sm-6 footer-widget">
-                            <h6 className="footer-widget__title mb-20">Column2</h6>
-                            <ul className="footer-widget__list">
-                                <li><Link to="#" className="hover-style-link">Link</Link></li>
-                                <li><Link to="#" className="hover-style-link">Link</Link></li>
-                                <li><Link to="#" className="hover-style-link">Link</Link></li>
-                                <li><Link to="#" className="hover-style-link">Link</Link></li>
-                            </ul>
-                        </div>
-                        <div className="col-lg-2 col-md-4 col-sm-6 footer-widget">
-                            <h6 className="footer-widget__title mb-20">Column3</h6>
-                            <ul className="footer-widget__list">
-                                <li><Link to="#" className="hover-style-link">Link</Link></li>
-                                <li><Link to="#" className="hover-style-link">Link</Link></li>
-                                <li><Link to="#" className="hover-style-link">Link</Link></li>
-                                <li><Link to="#" className="hover-style-link">Link</Link></li>
                             </ul>
                         </div>
                     </div>

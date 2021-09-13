@@ -16077,3 +16077,22 @@ blockquote {
   .delay-1 {
   animation-delay: 2.25s;
   }
+
+
+@media only screen and (max-width: 767px) {
+  .box-pulse{
+    width: 100%;
+  }
+  .pulse, .pulse2, .pulse3{
+    width: 100%;
+    margin-left: 0px;
+  }
+  .infotechno-hero-inner-images{
+    width: 100%;
+  }
+  .box-pulse{
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+}
