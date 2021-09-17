@@ -47,7 +47,7 @@ class Whywe extends React.Component {
                                                             <i className="fal fa-lock-alt"></i>
                                                         </div>
                                                         <h5 className="heading">
-                                                            Writing
+                                                            Coding
                                                         </h5>
                                                     </div>
                                                     <div className="content">
