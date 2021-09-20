@@ -1,9 +1,24 @@
 import React from "react";
 import {Link} from "gatsby";
+import MobileMenu from "./mobileMenu"
+
 class Header extends React.Component {
+state = {
+    menuToggle: false
+}
+
+openMenu = () => {
+    this.setState({ menuToggle: true })
+}
+
+closeMenu = () => {
+    this.setState({ menuToggle: false })
+}
+
 render () {
     return (
         <>
+            {(this.state.menuToggle) && <MobileMenu closeMenu={() => this.closeMenu()} />}
             <div className="header-area header-area--default">
                 <div className="header-top-wrap border-bottom bg-blue text-white">
                     <div className="container-fluid">
@@ -82,7 +97,7 @@ render () {
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div onClick={() => this.props.openMenu()} className="mobile-navigation-icon d-block d-xl-none" id="mobile-menu-trigger">
+                                        <div onClick={() => this.openMenu()} className="mobile-navigation-icon d-block d-xl-none" id="mobile-menu-trigger">
                                             <i></i>
                                         </div>
                                         <div className="hidden-icons-menu d-block d-md-none" id="hidden-icon-trigger">

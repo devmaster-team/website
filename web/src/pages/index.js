@@ -11,39 +11,27 @@ import Whywe from "../components/whywe"
 import Team from "../components/team"
 import Contact from "../components/contact"
 import Footer from "../components/footer"
-import MobileMenu from "../components/mobileMenu"
+
 class IndexPage extends React.Component {
-state = {
-  menuToggle: false
-}
-
-openMenu = () => {
-  this.setState({ menuToggle: true })
-}
-
-closeMenu = () => {
-  this.setState({ menuToggle: false })
-}
-
   render() {
       return(
       <>
         <MetaTop/>
         <div id="main-wrapper">
-                <Header openMenu={this.openMenu} />
+            <Header/>
             <div className="site-wrapper-reveal">
-                <Hero/>
-                <LogoCarusel/>
-                <Services/>
-                <Portfolio/>
-                <History/>
-                <Whywe/>
-                <Team/>
-                <Contact/>
+              <Hero/>
+              <LogoCarusel/>
+              <Services/>
+              <Portfolio/>
+              <History/>
+              <Whywe/>
+              <Team/>
+              <Contact/>
             </div>
             <Footer/>
         </div>
-        {(this.state.menuToggle) && <MobileMenu closeMenu={this.closeMenu} />}
+        
         <MetaDown/>
       </>
     )
