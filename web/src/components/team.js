@@ -25,7 +25,6 @@ const query = graphql`
 `;
 
 const Team = () => {
-
     const data = useStaticQuery(query)
     const teams = data.allMdx.nodes[0].frontmatter.teamMember.map(team => 
         <>
