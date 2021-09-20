@@ -23,7 +23,7 @@ const query = graphql`
 `;
 const Services = () => {
     const data = useStaticQuery(query);
-    const { titleH2, titleH3, titleH3blue, endTitle} = data.allMdx.nodes[0].frontmatter;
+    const { titleH2, titleH3, titleH3Blue, endTitle} = data.allMdx.nodes[0].frontmatter;
     const services = data.allMdx.nodes[0].frontmatter.services.map(service => 
         <>
             <div className="col-lg-4 col-md-6 wow move-up">
