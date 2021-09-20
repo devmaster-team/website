@@ -82,7 +82,7 @@ render () {
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div className="mobile-navigation-icon d-block d-xl-none" id="mobile-menu-trigger">
+                                        <div onClick={() => this.props.openMenu()} className="mobile-navigation-icon d-block d-xl-none" id="mobile-menu-trigger">
                                             <i></i>
                                         </div>
                                         <div className="hidden-icons-menu d-block d-md-none" id="hidden-icon-trigger">

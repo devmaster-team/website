@@ -1,4 +1,4 @@
-import * as React from "react"
+import React from "react";
 import MetaTop from "../components/metaTop"
 import MetaDown from "../components/metaDown"
 import Header from "../components/header"
@@ -12,27 +12,42 @@ import Team from "../components/team"
 import Contact from "../components/contact"
 import Footer from "../components/footer"
 import MobileMenu from "../components/mobileMenu"
+class IndexPage extends React.Component {
+state = {
+  menuToggle: false
+}
 
-const IndexPage = () => (
-<>
-  <MetaTop/>
-  <div id="main-wrapper">
-          <Header/>
-      <div className="site-wrapper-reveal">
-          <Hero/>
-          <LogoCarusel/>
-          <Services/>
-          <Portfolio/>
-          <History/>
-          <Whywe/>
-          <Team/>
-          <Contact/>
-      </div>
-      <Footer/>
-  </div>
-  <MobileMenu/>
-  <MetaDown/>
-</>
-)
+openMenu = () => {
+  this.setState({ menuToggle: true })
+}
+
+closeMenu = () => {
+  this.setState({ menuToggle: false })
+}
+
+  render() {
+      return(
+      <>
+        <MetaTop/>
+        <div id="main-wrapper">
+                <Header openMenu={this.openMenu} />
+            <div className="site-wrapper-reveal">
+                <Hero/>
+                <LogoCarusel/>
+                <Services/>
+                <Portfolio/>
+                <History/>
+                <Whywe/>
+                <Team/>
+                <Contact/>
+            </div>
+            <Footer/>
+        </div>
+        {(this.state.menuToggle) && <MobileMenu closeMenu={this.closeMenu} />}
+        <MetaDown/>
+      </>
+    )
+  }
+}
 
 export default IndexPage
