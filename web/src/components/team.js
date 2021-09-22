@@ -32,7 +32,7 @@ const Team = () => {
                 <div className="grid-item">
                     <div className="ht-team-member">
                         <div className="team-image">
-                            <img className="img-fluid" src="assets/images/2.webp" alt=""/>
+                            <img className="img-fluid" src={team.imageFileName} alt={team.header}/>
                             <div className="social-networks">
                                 <div className="inner">
                                     <Link target="_blank" to={team.social['facebook']}
