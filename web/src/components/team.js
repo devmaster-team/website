@@ -28,7 +28,7 @@ const Team = () => {
     const data = useStaticQuery(query)
     const teams = data.allMdx.nodes[0].frontmatter.teamMember.map(team => 
         <>
-            <div className="col-lg-6 col-md-6 wow move-up animated">
+            <div className="col-lg-4 col-md-6 wow move-up animated">
                 <div className="grid-item">
                     <div className="ht-team-member">
                         <div className="team-image">
