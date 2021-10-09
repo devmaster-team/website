@@ -2576,7 +2576,10 @@ input[type="checkbox"] {
     display: none !important;
   }
 }
-
+.header-bottom-wrap{
+  position: sticky;
+  top:30px;
+}
 .header-area--absolute {
   position: absolute;
   top: 0;
@@ -2860,10 +2863,14 @@ input[type="checkbox"] {
   font-weight: 900;
 }
 
+.pointer{
+  cursor: pointer;
+}
+
 .language-menu > ul > li ul {
   min-width: 200px;
-  opacity: 0;
-  visibility: hidden;
+  cursor: pointer;
+  opacity: 1;
   position: absolute;
   top: 100%;
   right: 0;
@@ -2874,15 +2881,12 @@ input[type="checkbox"] {
   z-index: 102;
   -webkit-box-shadow: 0 0 37px rgba(0, 0, 0, 0.07);
           box-shadow: 0 0 37px rgba(0, 0, 0, 0.07);
-  -webkit-transform: translateY(30px);
-      -ms-transform: translateY(30px);
-          transform: translateY(30px);
-  -webkit-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
-  -o-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-transform: translateY(28px);
+      -ms-transform: translateY(28px);
+          transform: translateY(28px);
 }
 
-.language-menu > ul > li ul li a {
+.language-menu > ul > li ul li div {
   font-weight: 500;
   color: #333;
   text-transform: uppercase;
@@ -2894,28 +2898,23 @@ input[type="checkbox"] {
   color: #222;
   line-height: 1;
   text-transform: uppercase;
+  cursor: pointer;
+}
+.language-menu > ul > li ul li div:hover {
+  background: rgb(214, 214, 214);
 }
 
-.language-menu > ul > li ul li a span {
+.language-menu > ul > li ul li div span {
   margin-left: 10px;
 }
 
-.language-menu > ul > li ul li a img {
+.language-menu > ul > li ul li div img {
   width: 24px;
   height: auto;
 }
 
-.language-menu > ul > li ul li a:hover {
-  background: #EEEEEE;
-}
 
-.language-menu > ul > li:hover ul {
-  opacity: 1;
-  visibility: visible;
-  -webkit-transform: translateY(10px);
-      -ms-transform: translateY(10px);
-          transform: translateY(10px);
-}
+
 
 .header-right {
   -webkit-box-flex: 1;
@@ -3384,7 +3383,7 @@ input[type="checkbox"] {
 }
 
 .navigation-menu > ul > li {
-  margin: 0 24px;
+  margin: 0 15px;
 }
 
 @media only screen and (min-width: 1500px) and (max-width: 1599px) {

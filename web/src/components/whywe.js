@@ -1,9 +1,37 @@
 import React from "react";
+import { useStaticQuery, graphql } from "gatsby"
+import Appcontext from "../context";
 
-class Whywe extends React.Component {
-  render () {
+const query = graphql`
+query WhyWe{
+  allMdx(
+    filter: {frontmatter: {anchor: {eq: "WhyWe"}}}
+    sort: {fields: frontmatter___langIndex}
+  ) {
+    nodes {
+        frontmatter {
+            topMessage
+            home
+            servicesPoz
+            portfolio
+            history
+            whyWe
+            team
+            contact
+          }
+    }
+  }
+}
+`;
+
+const Whywe = (props) =>{
+    const data = useStaticQuery(query);
+
     return (
+        <Appcontext.Consumer>
+        {(context) => (
         <>
+
           <div id="whywe" className="feature-icon-wrapper section-space--pb_70">
                 <div className="container">
                     <div className="row">
@@ -113,9 +141,10 @@ class Whywe extends React.Component {
                     </div>
                 </div>
             </div>
-        </>
-    );
-  }
+            </>
+            )}
+        </Appcontext.Consumer>
+    )
 };
 
 export default Whywe;

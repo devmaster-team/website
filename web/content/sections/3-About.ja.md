@@ -1,6 +1,7 @@
 ---
 anchor: "About"
 header: "About"
+lang: "de"
 timeline: [
   {
     imageFileName: "about/1.jpg",

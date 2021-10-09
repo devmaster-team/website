@@ -1,6 +1,7 @@
 ---
 anchor: "ポートフォリオ"
 header: "ポートフォリオ"
+lang: "de"
 portfolios: [
   {
     imageFileNames: ["portfolio/01-thumbnail.jpg"],
