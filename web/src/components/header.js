@@ -65,25 +65,28 @@ const Header = (props) => {
                                                             <nav className="navigation-menu primary--menu">
                                                                 <ul>
                                                                     <li>
-                                                                        <Link to="#"><span>{data.allMdx.nodes[context['langIndex']].frontmatter.home}</span></Link>
+                                                                        <Link to="/#"><span>{data.allMdx.nodes[context['langIndex']].frontmatter.home}</span></Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link to="#services"><span>{data.allMdx.nodes[context['langIndex']].frontmatter.servicesPoz}</span></Link>
+                                                                        <Link to="/#services"><span>{data.allMdx.nodes[context['langIndex']].frontmatter.servicesPoz}</span></Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link to="#portfolio"><span>{data.allMdx.nodes[context['langIndex']].frontmatter.portfolio}</span></Link>
+                                                                        <Link to="/#portfolio"><span>{data.allMdx.nodes[context['langIndex']].frontmatter.portfolio}</span></Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link to="#history"><span>{data.allMdx.nodes[context['langIndex']].frontmatter.history}</span></Link>
+                                                                        <Link to="/#history"><span>{data.allMdx.nodes[context['langIndex']].frontmatter.history}</span></Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link to="#whywe"><span>{data.allMdx.nodes[context['langIndex']].frontmatter.whyWe}</span></Link>
+                                                                        <Link to="/careers"><span>Careers</span></Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link to="#team"><span>{data.allMdx.nodes[context['langIndex']].frontmatter.team}</span></Link>
+                                                                        <Link to="/#whywe"><span>{data.allMdx.nodes[context['langIndex']].frontmatter.whyWe}</span></Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link to="#contact"><span>{data.allMdx.nodes[context['langIndex']].frontmatter.contact}</span></Link>
+                                                                        <Link to="/#team"><span>{data.allMdx.nodes[context['langIndex']].frontmatter.team}</span></Link>
+                                                                    </li>
+                                                                    <li>
+                                                                        <Link to="/#contact"><span>{data.allMdx.nodes[context['langIndex']].frontmatter.contact}</span></Link>
                                                                     </li>
                                                                 </ul>
                                                             </nav>

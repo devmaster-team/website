@@ -33,7 +33,6 @@ query team{
 
 
 const Team = () => {
-
   const dataww = useStaticQuery(query);
   
   return (
