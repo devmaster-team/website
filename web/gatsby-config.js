@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Dev Masters`,
-    description: `Let Dev Masters take care of your business Highly Tailored IT Design, Management & Support Services. `,
+    title: `Dev Master`,
+    description: `Let Dev Master take care of your business Highly Tailored IT Design, Management & Support Services. `,
     author: ``,
     siteUrl: `http://devmaster.team/`,
   },

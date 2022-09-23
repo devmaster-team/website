@@ -54,7 +54,7 @@ const Header = (props) => {
                                     <div className="header default-menu-style position-relative">
                                         <div className="header__logo">
                                             <Link to="/">
-                                                <img src="assets/images/logo/logo-dark.png" className="img-fluid" alt="DEV Masters"/>
+                                                <img src="assets/images/logo/logo-dark.png" className="img-fluid" alt="DEV Master"/>
                                             </Link>
                                         </div>
                                         <div className="header-midle-box">

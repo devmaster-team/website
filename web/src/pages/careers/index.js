@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import Appcontext from "../../context";
 import { Link } from "gatsby";
 import Position from "../../components/position";
+import Applying from "../../components/applying";
 import { Router } from "@reach/router"
 
 const query = graphql`
@@ -30,6 +31,7 @@ const Careers = () => {
         <Layout>
             <Router>
                 <Position path="/careers/:id" />
+                <Applying path="/careers/applying/:id" />
             </Router>
             <Appcontext.Consumer>
                 {(context) => (

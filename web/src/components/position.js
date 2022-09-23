@@ -1,7 +1,7 @@
 import React from "react";
-import Layout from "../layout";
 import { useStaticQuery, graphql } from "gatsby";
 import Appcontext from "../context";
+import { navigate } from 'gatsby';
 
 const query = graphql`
 query Careers2{
@@ -34,6 +34,8 @@ const Position = (props) => {
       (<div>
         <div className="col-lg-5 offset-lg-1 ">
           <div className="tab-content-inner  mt-30">
+          <h3 className="section-title"><span className="text-color-primary"> {data.allMdx.nodes[context['langIndex']].frontmatter.positions.find(x => x.id === parseInt(props.id)) && data.allMdx.nodes[context['langIndex']].frontmatter.positions.find(x => x.id === parseInt(props.id)).name}</span>
+                                            </h3>
             <div className="text mb-30">{data.allMdx.nodes[context['langIndex']].frontmatter.responsibilitiesLabel}</div>
             <ul className="check-list section-space--mb_40">
               {data.allMdx.nodes[context['langIndex']].frontmatter.positions.find(x => x.id === parseInt(props.id)) && data.allMdx.nodes[context['langIndex']].frontmatter.positions.find(x => x.id === parseInt(props.id)).responsibilities.map(x => (<li className="list-item">{x}</li>))}
@@ -42,7 +44,7 @@ const Position = (props) => {
             <ul className="check-list section-space--mb_40">
               {data.allMdx.nodes[context['langIndex']].frontmatter.positions.find(x => x.id === parseInt(props.id)) && data.allMdx.nodes[context['langIndex']].frontmatter.positions.find(x => x.id === parseInt(props.id)).requirements.map(x => (<li className="list-item">{x}</li>))}
             </ul><div className="comment-submit-btn">
-              <button className="ht-btn ht-btn-md" type="submit">{data.allMdx.nodes[context['langIndex']].frontmatter.btnText}</button>
+              <button className="ht-btn ht-btn-md" onClick={() => navigate("/careers/applying/" + props.id)}>{data.allMdx.nodes[context['langIndex']].frontmatter.btnText}</button>
               <p className="form-messege-2"></p>
             </div>
             <div className="tab-button mt-20">

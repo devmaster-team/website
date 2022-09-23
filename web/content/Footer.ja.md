@@ -1,5 +1,5 @@
 ---
-copyright: "Copyright © Dev masters 2020"
+copyright: "Copyright © Dev Master 2020"
 social: {
   twitter: "#",
   facebook: "#",

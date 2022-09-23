@@ -11,7 +11,7 @@ class Footer extends React.Component {
                     <div className="row footer-widget-wrapper">
                         <div className="col-lg-6 col-md-6 col-sm-6 footer-widget">
                             <div className="footer-widget__logo mb-30">
-                                <img src="assets/images/logo/dark-logo-160x48.png" className="img-fluid" alt="DEV Masters"/>
+                                <img src="assets/images/logo/dark-logo-160x48.png" className="img-fluid" alt="DEV Master"/>
                             </div>
                             <ul className="footer-widget__list">
                                 <li><Link to="mailto:contact@devmaster.team" className="hover-style-link">contact@devmaster.team</Link></li>
@@ -26,7 +26,7 @@ class Footer extends React.Component {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-md-6 text-center text-md-left">
-                            <span className="copyright-text">&copy; 2021 DEV Masters. <Link to="/">All Rights
+                            <span className="copyright-text">&copy; 2021 DEV Master. <Link to="/">All Rights
                                     Reserved.</Link></span>
                         </div>
                         <div className="col-md-6 text-center text-md-right">

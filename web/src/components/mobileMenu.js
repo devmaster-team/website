@@ -11,7 +11,7 @@ class Services extends React.Component {
                         <div className="row align-items-center">
                             <div className="col-md-6 col-8">
                                 <div className="logo">
-                                    <img src="assets/images/logo/logo-dark.png" className="img-fluid" alt="DEV Masters"/>
+                                    <img src="assets/images/logo/logo-dark.png" className="img-fluid" alt="DEV Master"/>
                                 </div>
                             </div>
                             <div className="col-md-6 col-4">
